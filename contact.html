@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 🔝 Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo"><span style="color: white;">mY</span>Portfolio</div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="./Skill.html">Skills</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="toggle-btn" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- 📬 Contact Section -->
+ <section class="contact" id="contact">
+  <h2 class="section-title">Let's Connect</h2>
+  <p class="contact-subtitle">Have a project in mind or just want to say hello? Reach out!</p>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <input type="text" placeholder="Your Name" required />
+    </div>
+    <div class="form-group">
+      <input type="email" placeholder="Your Email" required />
+    </div>
+    <div class="form-group">
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="send-btn">
+      <i class="fas fa-paper-plane"></i> Send Message
+    </button>
+  </form>
+ </section>
+
+
+<script src="Js/script.js"></script>    
+</body>
+
+</html>
